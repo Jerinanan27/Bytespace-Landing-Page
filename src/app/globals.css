@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Satoshi (Indian Type Foundry, via Fontshare), self-hosted as a variable font. */
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Variable.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+  color: #242528;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  /* 1200px content column, matching the 120px side margins of the 1440 design. */
+  .container-x {
+    @apply mx-auto w-full max-w-[1248px] px-6;
+  }
+
+  /* The 2px grid drawn on the blue hero and call-to-action bands. */
+  .grid-lines {
+    background-image: linear-gradient(to right, #1f53e6 2px, transparent 2px),
+      linear-gradient(to bottom, #1f53e6 2px, transparent 2px);
+    background-size: 120px 120px;
+    background-position: 0 -2px;
+  }
+}
