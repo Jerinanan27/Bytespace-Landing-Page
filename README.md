@@ -72,9 +72,10 @@ On desktop each section reproduces the 1440px Figma frame: elements sit at their
 
 All images in `public/images/` are exported from the Figma file:
 
-- `hero-person.png`, `growth-person.png`, `creator.png` photos with transparent backgrounds
+- `hero-person.png`, `growth-person.png` photos with transparent backgrounds
+- `creator.png` the creator photo, exported from Figma with its drop shadow included
 - `course-1.jpg` to `course-6.jpg` course thumbnails (the info chips are real HTML)
 - `avatar-*.png`, `learner-*.png`, `testi-*.png` portraits
 - `partner-*.png`, `cat-*.png`, `icon-*.png` logos and icons
-- `hero-*.png`, `cta-*.png`, `lime-ring.png`, `growth-spring.png` the 3D shapes
+- `hero-*.png`, `cta-*.png`, `lime-ring.png`, `growth-spring.png`, `creator-spring.png` the 3D shapes
 - `bg-features.png`, `bg-testimonials.png` soft gradient backgrounds
