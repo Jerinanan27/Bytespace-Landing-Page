@@ -87,12 +87,20 @@ export default function FeatureSections() {
           <Stage w={541} h={596}>
             <RevenueCard />
             <YearCard />
+            {/* Figma export of the photo layer, including its drop shadow. */}
             <Image
               src="/images/creator.png"
               alt="Course creator with a tablet"
-              width={509}
-              height={654}
-              className="absolute left-[28px] top-0 h-[596px] w-[464px] max-w-none drop-shadow-float"
+              width={1158}
+              height={1438}
+              className="absolute left-[7px] top-[-2px] h-[719px] w-[579px] max-w-none"
+            />
+            <Image
+              src="/images/creator-spring.png"
+              alt=""
+              width={155}
+              height={165}
+              className="absolute left-[339px] top-[150px] h-[150px] w-[141px]"
             />
             <div className="absolute left-[283px] top-[413px]">
               <StudentsCard variant="creator" />
